@@ -11,7 +11,7 @@ public class FileHelper {
 
 	public static String loadMetaData() {
 		StringBuffer reviews = new StringBuffer();
-		File file = new File("resource/meta_data.txt");
+		File file = new File("resource/got_meta_data.txt");
 
 		try {
 			BufferedReader br = new BufferedReader(new FileReader(file));
