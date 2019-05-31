@@ -10,21 +10,21 @@ import java.util.List;
 public class FileHelper {
 
 	public static String loadMetaData() {
-		StringBuffer reviews = new StringBuffer();
+		StringBuffer characterData = new StringBuffer();
 		File file = new File("resource/got_meta_data.txt");
 
 		try {
-			BufferedReader br = new BufferedReader(new FileReader(file));
+			BufferedReader buffer = new BufferedReader(new FileReader(file));
 			String aLine;
-			while ((aLine = br.readLine()) != null) {
-				reviews.append(aLine);
-				reviews.append(System.lineSeparator());
+			while ((aLine = buffer.readLine()) != null) {
+				characterData.append(aLine);
+				characterData.append(System.lineSeparator());
 			}
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
 
-		return reviews.toString();
+		return characterData.toString();
 	}
 
 	public static List<String> loadMessages(String fileName) {
@@ -32,9 +32,9 @@ public class FileHelper {
 		File file = new File("resource/message_logs/" + fileName);
 
 		try {
-			BufferedReader br = new BufferedReader(new FileReader(file));
+			BufferedReader buffer = new BufferedReader(new FileReader(file));
 			String aLine;
-			while ((aLine = br.readLine()) != null) {
+			while ((aLine = buffer.readLine()) != null) {
 				messages.add(aLine);
 			}
 		} catch (IOException e) {
