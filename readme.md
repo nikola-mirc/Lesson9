@@ -8,11 +8,11 @@ Your solution must be published on GitHub. There are so many different ways to s
 1. Create a character class that contains the data for each character in the got_meta_data.txt file. You may want to use additional classes to do this.                 **[10 points]** 
 2. Print all Daenerys' messages.                **[20 points]** 
 3. Create a pop up that displays the number of messages that each character has sent. 	**[20 points]** 
-4. We are going to analyze the character's dispositions by measuring their emoji usage.	**[20 points]** 
+4. We are going to analyze the character's dispositions by measuring their emoji usage.	
     - HAPPY: 😄🙂😊😍
     - SAD:   😢😭😞👿
     
-   Verify that Tyrion has a positive disposition (is more happy than sad). 		    **[10 points]** 
+   Verify that Tyrion has a positive disposition (is more happy than sad). 		    **[20 points]** 
 5. Print the character who has the most positive and the most negative disposition.	**[10 points]**
 6. Does Jon love Daenerys more than she loves him?					                **[10 points]** 
     - LOVING: 😍😘
