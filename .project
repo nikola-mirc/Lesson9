@@ -14,4 +14,10 @@
 	<natures>
 		<nature>org.eclipse.jdt.core.javanature</nature>
 	</natures>
+	<variableList>
+		<variable>
+			<name>APACHE</name>
+			<value>file:/C:/APACHE</value>
+		</variable>
+	</variableList>
 </projectDescription>
